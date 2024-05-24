@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 8514519787694706297}
   - component: {fileID: 7480762460076059002}
   - component: {fileID: 8260306231855627240}
+  - component: {fileID: -7184493421355570276}
+  - component: {fileID: 3186221748131678743}
   m_Layer: 0
   m_Name: GreenCircle
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159,5 +161,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e01b2b5c0f423db419bdf4e46da5bef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7184493421355570276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354970853323004565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f23a7e3b3ab4e4184e5b6cc92f1f31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3186221748131678743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7354970853323004565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be546bd402d8bc4784306a15ed82399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

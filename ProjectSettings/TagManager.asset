@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Destroy
   - enemy
+  - Heroine
   layers:
   - Default
   - TransparentFX

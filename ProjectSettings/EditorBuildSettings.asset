@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Sample/Scenes/2DSample.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Ebisawa/title.unity
+    guid: ea8a13b0faea5eb45b6d2a9406704b65
+  - enabled: 1
+    path: Assets/Shinbo/Main.unity
+    guid: 342fbdbcce344bb479a67593dacd7e02
+  - enabled: 1
+    path: Assets/Yagi/result.unity
+    guid: 1a5e53ad9c8ecce4684cf6e05750e2fa
   m_configObjects: {}

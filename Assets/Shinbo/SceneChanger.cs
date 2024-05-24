@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; //Ç±ÇÍïKê{Ç≈Ç∑
 
-public class Scene : MonoBehaviour
+public class SceneChanger : MonoBehaviour
 {
 
     [SerializeField] private string loadScene;
 
-    public void scene()
+    public void SwitchScene()
     {
         SceneManager.LoadScene(loadScene);
     }
