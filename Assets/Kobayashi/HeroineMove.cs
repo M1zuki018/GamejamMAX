@@ -6,15 +6,21 @@ using UnityEngine;
 
 public class HeroineMove : MonoBehaviour
 {
-    public float _speed = 0.01f;
+    public float _speed = 5f;
+    float _baseSpeed=0.01f;
+    float _rondomSpeed=1f;
     float _timer ;
     bool _moveExecution=true;
-    int _time=2;
+    int _time = 2;
+    [SerializeField]
+    float _speedRangelow = 0.8f, _speedRangeMax=1.2f;
     [SerializeField]
     GameObject _leftGameObject;
     [SerializeField]
     GameObject _rightGameObject;
+    [SerializeField]
     Vector2 _leftPosition;
+    [SerializeField]
     Vector2 _rightPosition;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +34,7 @@ public class HeroineMove : MonoBehaviour
     {
         if (_leftPosition.x >= this.gameObject.transform.position.x) this.gameObject.transform.Rotate(0,180,0);
         if (_rightPosition.x <= this.gameObject.transform.position.x) this.gameObject.transform.Rotate(0, 180, 0);
-        if (_moveExecution == true) transform.Translate(Vector2.left * _speed, Space.Self);
+        if (_moveExecution == true) transform.Translate(Vector2.left * _speed * _baseSpeed * _rondomSpeed, Space.Self);
         _timer += Time.deltaTime;
         if (_timer >= _time)
         {
@@ -40,6 +46,7 @@ public class HeroineMove : MonoBehaviour
                 _time = 1;
             }
             else _time = Random.Range(2, 5);
+            _rondomSpeed = Random.Range(_speedRangelow, _speedRangeMax);
         }
         
     }
