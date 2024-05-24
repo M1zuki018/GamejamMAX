@@ -12,8 +12,7 @@ public class HeroineMove : MonoBehaviour
     float _timer ;
     bool _moveExecution=true;
     int _time = 2;
-    [SerializeField]
-    float _speedRangelow = 0.8f, _speedRangeMax=1.2f;
+    public float _speedRangelow = 0.8f, _speedRangeMax=1.2f;
     [SerializeField]
     GameObject _leftGameObject;
     [SerializeField]
@@ -25,8 +24,8 @@ public class HeroineMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _leftPosition=_leftGameObject.transform.position;
-        _rightPosition=_rightGameObject.transform.position;
+        if(_leftGameObject!=null)_leftPosition=_leftGameObject.transform.position;
+        if(_rightGameObject!=null)_rightPosition=_rightGameObject.transform.position;
     }
 
     // Update is called once per frame
