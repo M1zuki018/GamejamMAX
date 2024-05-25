@@ -20,7 +20,7 @@ public class TimeCounter : MonoBehaviour
     private void Start()
     {
         _countUpTimer = 0;
-        _countDownTimer = 60f;
+        _countDownTimer = 30f;
     }
 
     // Update is called once per frame
