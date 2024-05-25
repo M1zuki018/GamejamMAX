@@ -536,7 +536,7 @@ MonoBehaviour:
   _moveTimer: 0
   _speedRangelow: 0.8
   _speedRangeMax: 1.2
-  _inversion: 180
+  _muki: 1
   _leftGameObject: {fileID: 1946221316}
   _rightGameObject: {fileID: 1654678377}
   _leftPosition: {x: -10, y: 0}
