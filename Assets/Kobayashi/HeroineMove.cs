@@ -16,8 +16,10 @@ public class HeroineMove : MonoBehaviour
     bool _moveExecution=true;
     int _time = 2;
     public float _speedRangelow = 0.8f, _speedRangeMax=1.2f;
-    [SerializeField]
     int _inversion = 180;
+    int _minus = -1;
+    [SerializeField]
+    bool _muki;
     [SerializeField]
     GameObject _leftGameObject;
     [SerializeField]
@@ -31,6 +33,8 @@ public class HeroineMove : MonoBehaviour
     {
         if(_leftGameObject!=null)_leftPosition=_leftGameObject.transform.position;
         if(_rightGameObject!=null)_rightPosition=_rightGameObject.transform.position;
+        if (_muki == false) _minus = -1;
+        if(_muki == true) _minus = 1;
     }
 
     // Update is called once per frame
@@ -73,7 +77,7 @@ public class HeroineMove : MonoBehaviour
     {
         if (_leftPosition.x >= this.gameObject.transform.position.x) this.gameObject.transform.Rotate(0, _inversion, 0);
         if (_rightPosition.x <= this.gameObject.transform.position.x) this.gameObject.transform.Rotate(0, _inversion, 0);
-        if (_moveExecution == true) transform.Translate(Vector2.left * _speed * _baseSpeed * _rondomSpeed, Space.Self);
+        if (_moveExecution == true) transform.Translate(Vector2.left * _speed * _baseSpeed * _rondomSpeed*_minus, Space.Self);
         _timer += Time.deltaTime;
     }
 }
