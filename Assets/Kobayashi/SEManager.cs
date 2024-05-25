@@ -7,6 +7,7 @@ public class SEManager : MonoBehaviour
     [SerializeField]AudioSource _audioSource;
     [SerializeField]AudioClip _clearSE;
     [SerializeField]AudioClip _gameOvarSE;
+    [SerializeField]AudioClip _midGameOvarSE;
     float _a=60;
     void Start()
     {
@@ -15,9 +16,13 @@ public class SEManager : MonoBehaviour
         {
             _audioSource.PlayOneShot(_clearSE);
         }
-        else
+        else if(_a<=20)
         {
             _audioSource.PlayOneShot(_gameOvarSE);
+        }
+        else
+        {
+            _audioSource.PlayOneShot(_midGameOvarSE);
         }
     }
 }
