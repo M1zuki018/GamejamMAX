@@ -8,15 +8,21 @@ public class SEManager : MonoBehaviour
     [SerializeField]AudioClip _clearSE;
     [SerializeField]AudioClip _gameOvarSE;
     [SerializeField]AudioClip _midGameOvarSE;
-    float _a=60;
+    [SerializeField]
+    float _GameCountMAX=60;
+    [SerializeField]GameObject _clearscreen;
     void Start()
     {
-        _a=TimeCounter._countUpTimer;
-        if(_a>=60)
+        _GameCountMAX=TimeCounter._countUpTimer;
+        if(_GameCountMAX>=60)
         {
             _audioSource.PlayOneShot(_clearSE);
+            if (_clearscreen != null)
+            {
+                _clearscreen.SetActive(true);
+            }
         }
-        else if(_a<=20)
+        else if(_GameCountMAX<=20)
         {
             _audioSource.PlayOneShot(_gameOvarSE);
         }
