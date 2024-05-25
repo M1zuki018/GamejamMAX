@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    float speed = 3.0f;
+    float speed = 7.0f;
 
     void Update()
     {
