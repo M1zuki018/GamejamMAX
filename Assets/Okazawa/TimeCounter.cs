@@ -32,7 +32,7 @@ public class TimeCounter : MonoBehaviour
         _countDownTimer -= Time.deltaTime;
 
         //ŽžŠÔ‚ð•\Ž¦‚·‚é
-        TimeText.text = _countDownTimer.ToString("f1");
+        TimeText.text = ("‚Ì‚±‚è ") + _countDownTimer.ToString("f1") + ("•b");
 
         if (_countDownTimer<=0)
         {
