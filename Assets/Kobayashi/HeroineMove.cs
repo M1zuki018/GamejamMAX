@@ -8,7 +8,7 @@ public class HeroineMove : MonoBehaviour
 {
     public float _speed = 5f;
     [SerializeField]
-    float _baseSpeed=0.01f;
+    float _baseSpeed=0.03f;
     float _rondomSpeed=1f;
     float _timer ;
     [SerializeField]

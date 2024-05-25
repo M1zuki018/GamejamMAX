@@ -12,6 +12,7 @@ public class SceneChanger : MonoBehaviour
     {
         Invoke("SwitchScene", 1);
     }
+
     public void SwitchScene()
     {
         SceneManager.LoadScene(loadScene);
