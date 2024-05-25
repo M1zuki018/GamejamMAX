@@ -532,8 +532,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 1
+  _baseSpeed: 0.01
+  _moveTimer: 0
   _speedRangelow: 0.8
   _speedRangeMax: 1.2
+  _inversion: 180
   _leftGameObject: {fileID: 1946221316}
   _rightGameObject: {fileID: 1654678377}
   _leftPosition: {x: -10, y: 0}
