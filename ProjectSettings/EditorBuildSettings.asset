@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Ebisawa/title.unity
     guid: ea8a13b0faea5eb45b6d2a9406704b65
   - enabled: 1
+    path: Assets/Yagi/Operate.unity
+    guid: d1991411bce26c64682312bea6761786
+  - enabled: 1
     path: Assets/Shinbo/Main.unity
     guid: 342fbdbcce344bb479a67593dacd7e02
   - enabled: 1
