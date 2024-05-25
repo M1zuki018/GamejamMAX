@@ -183,6 +183,18 @@ PrefabInstance:
       propertyPath: _createInterval
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 4400444087879961059, guid: 85e6860ed44bc204cb997a9edad2769f, type: 3}
+      propertyPath: _createObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 914742575029924168, guid: 10780c1b422c0644ca12cd380a0fc85f, type: 3}
+    - target: {fileID: 4400444087879961059, guid: 85e6860ed44bc204cb997a9edad2769f, type: 3}
+      propertyPath: _createObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 914742575029924168, guid: dc61e8c69f9ea5845bf0999fa9d96e3a, type: 3}
+    - target: {fileID: 4400444087879961059, guid: 85e6860ed44bc204cb997a9edad2769f, type: 3}
+      propertyPath: _createObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 914742575029924168, guid: 0e0ff606db29f444f91823a77401fd27, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
