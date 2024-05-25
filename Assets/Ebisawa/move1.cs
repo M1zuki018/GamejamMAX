@@ -22,8 +22,8 @@ public class PlayerScript : MonoBehaviour
         }
         transform.position = new Vector2(
      //ƒGƒŠƒAŽw’è‚µ‚ÄˆÚ“®‚·‚é
-     Mathf.Clamp(transform.position.x, -7.0f, 7.0f),
-     Mathf.Clamp(transform.position.y, -3.35f, 3.35f)
+     Mathf.Clamp(transform.position.x, -13.0f, 12.0f),
+     Mathf.Clamp(transform.position.y, -10.8f, 10.5f)
      );
     }
 }
