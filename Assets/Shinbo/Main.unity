@@ -177,7 +177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4400444087879961059, guid: 85e6860ed44bc204cb997a9edad2769f, type: 3}
       propertyPath: _createRange.x
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4400444087879961059, guid: 85e6860ed44bc204cb997a9edad2769f, type: 3}
       propertyPath: _createInterval
@@ -310,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4400444087879961059, guid: 85e6860ed44bc204cb997a9edad2769f, type: 3}
       propertyPath: _createRange.x
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4400444087879961059, guid: 85e6860ed44bc204cb997a9edad2769f, type: 3}
       propertyPath: _createInterval
@@ -381,7 +381,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 59b1ff87582aed94a91356406e6431d8, type: 3}
     m_FontSize: 160
     m_FontStyle: 0
     m_BestFit: 0
@@ -744,7 +744,7 @@ Transform:
   m_GameObject: {fileID: 962185142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.74, y: -0.6213206, z: 0.03963324}
+  m_LocalPosition: {x: 13.6, y: -0.6213206, z: 0.03963324}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -785,7 +785,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 50
+  m_LinearDrag: 0
   m_AngularDrag: 0.1
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -1068,7 +1068,7 @@ Transform:
   m_GameObject: {fileID: 1951369146}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.83, y: -0.6213206, z: 0.03963324}
+  m_LocalPosition: {x: -14.47, y: -0.6213206, z: 0.03963324}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   _baseSpeed: 0.01
   _moveTimer: 0
   _speedRangelow: 1
-  _speedRangeMax: 1.5
+  _speedRangeMax: 1.4
   _muki: 0
   _leftGameObject: {fileID: 1951369146}
   _rightGameObject: {fileID: 962185142}
@@ -1214,7 +1214,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 8.006812}
+  m_Offset: {x: 0.00000667572, y: 8.006812}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1225,7 +1225,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 14.82, y: 16.316378}
+  m_Size: {x: 9.843014, y: 16.316378}
   m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
