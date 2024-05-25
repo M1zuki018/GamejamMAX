@@ -12,8 +12,12 @@ public class TimeCounter : MonoBehaviour
 
 
     //カウントアップ
-    private float _countUpTimer = 0.0f;
+    public static float _countUpTimer = 0.0f;
 
+    private void Start()
+    {
+        _countUpTimer = 0;
+    }
 
     // Update is called once per frame
     void Update()
